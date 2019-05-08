@@ -6,7 +6,7 @@ class App extends React.Component {
     return (
       <div>
         App
-        <SearchBar />
+        <SearchBar className="ui container" />
       </div>
     );
   }
