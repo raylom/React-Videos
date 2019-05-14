@@ -30,7 +30,6 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        App
         <SearchBar onFormSubmit={this.onTermSubmit} className="ui container" />
         <div className="ui grid">
           <div className="ui row">
